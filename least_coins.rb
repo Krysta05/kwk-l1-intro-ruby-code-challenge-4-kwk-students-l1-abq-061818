@@ -26,14 +26,15 @@ pennies = nickelsR/1
 penniesR = nickelsR%1 
  puts penniesR
  
- change["quarters"] =quarters
+ change[:quarters] =quarters
  puts change
-change["dimes"] =dimes
+change[:dimes] =dimes
  puts change
-change["nickels"] =nickels
+change[:nickels] =nickels
  puts change
-change["pennies"] =pennies 
- puts change
+change[:pennies] =pennies 
+ puts change 
+ return change 
  
 end 
 
